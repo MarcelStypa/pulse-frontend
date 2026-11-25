@@ -1,0 +1,31 @@
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.iml
+
+# Secrets (never commit)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+!*.tfvars.example
+crash.log
+
+# Build output
+node_modules/
+dist/
+build/
+target/
+coverage/
+*.log
+
+# Claude Code local overrides
+.claude/settings.local.json
